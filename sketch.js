@@ -31,6 +31,6 @@ bin.display();
 
 function keyPressed(){
 	if(keyCode == UP_ARROW){
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:40,y:-40})
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:65,y:-65})
 	}
 }
